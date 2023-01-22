@@ -14,12 +14,6 @@ import FloatingNav from './sections/floating-nav/FloatingNav';
 
 
 function App() {
-    function handleClick () {
-      let randomNumber =  Math.floor(Math.random() *3) + 1;
-      console.log(randomNumber)
-      let userInput = prompt ('type a number');
-      alert(`Computer Number: ${randomNumber}, Your guess: ${userInput}` )
-    }
   return (
     <main>
       <NavBar />
@@ -32,12 +26,6 @@ function App() {
       <Contact />
       <Footer />
       <FloatingNav />
-
-
-      <div>
-        <h1>Add a button and handle a click event</h1>
-        <button onClick={handleClick}>Guess between the number 1 and 3</button>
-      </div>
     </main>
   );
 }

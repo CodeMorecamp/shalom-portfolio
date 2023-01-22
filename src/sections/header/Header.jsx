@@ -4,7 +4,6 @@ import './header.css'
 import data from './data'
 const Header = () => {
   return (
-    <div>
         <section id="header">
             <div className="container header__container">
               <div className="header__profile">
@@ -26,7 +25,6 @@ const Header = () => {
             </div>
             </div>
         </section>
-    </div>
   )
 }
 
