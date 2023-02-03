@@ -5,7 +5,7 @@ import Header from './sections/header/Header';
 import Footer from './sections/footer/Footer';
 import About from './sections/about/About';
 import Portfolio from './sections/portfolio/Portfolio';
-import Testimonials from './sections/testimonials/Testimonials'
+import Experience from './sections/experience/Experience'
 import Service from './sections/services/Service'
 import FAQS from './sections/faqs/FAQS';
 import Contact from './sections/contact/Contact'
@@ -21,7 +21,7 @@ function App() {
       <About />
       <Service />
       <Portfolio />
-      <Testimonials />
+      <Experience />
       <FAQS />
       <Contact />
       <FloatingNav />
